@@ -24,7 +24,7 @@ const customFetch = (uri, options) => {
 };
 
 const link = createHttpLink({
-  uri: "https://staging-graphql.goseek.com/graphql",
+  uri: "https://your-graphql-endpoint",
   fetchOptions: { method: "GET" },
   fetch: customFetch
 });
